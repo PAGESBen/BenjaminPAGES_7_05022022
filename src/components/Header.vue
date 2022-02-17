@@ -17,8 +17,9 @@
 
 <div class="w-100">
   <b-navbar toggleable="md" type="dark" variant="primary">
+    
     <b-navbar-brand href="#">
-      <img class="w-50" src="../assets/logos/icon-left-font-monochrome-black.svg" alt="Logo Groupomania">
+      <img class="w-50 img-fluid" src="../assets/logos/icon-left-font-monochrome-black.svg" alt="Logo Groupomania">
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -34,7 +35,9 @@
         <b-nav-item-dropdown right>
           <!-- Using 'button-content' slot -->
           <template #button-content>
-            <em> <i class="bi bi-person-circle"></i> Utilisateur</em>
+            <em class="px-2">
+              <b-icon icon="person-bounding-box" variant="dark"></b-icon>
+            </em>
           </template>
           <b-dropdown-item href="#">Profile</b-dropdown-item>
           <b-dropdown-item href="#">Sign Out</b-dropdown-item>
