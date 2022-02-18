@@ -40,7 +40,8 @@
 <script>
 
 export default {
-    name : 'Header', 
+  // eslint-disable-next-line
+    name : 'HeaderNav', 
     data : function () {
         return {
         }

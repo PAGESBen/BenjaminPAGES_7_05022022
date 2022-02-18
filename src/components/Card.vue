@@ -19,7 +19,7 @@
 <script>
 
 export default {
-    name : 'card',
+    name : 'CardPost',
     data : function () {
         return {
             message : ''

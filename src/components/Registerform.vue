@@ -25,7 +25,7 @@
 <script>
 
 export default{
-    name : 'Registerform'
+    name : 'RegisterForm'
 }
 </script>
 

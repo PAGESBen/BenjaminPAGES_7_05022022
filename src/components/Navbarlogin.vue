@@ -9,7 +9,7 @@
 <script>
 
 export default{
-    name : 'Navbarlogin'
+    name : 'NavbarLogin'
 }
 </script>
 
